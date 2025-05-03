@@ -3,35 +3,42 @@
     padding: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 #header {
     padding-top: 20px;
     padding-left: 40px;
     font-size: 1em;
     font-weight: bold;
 }
+
 a {
     text-decoration: none;
     color: black;
 }
-.top-bar{
+
+.top-bar {
     display: inline-block;
     padding: 12px;
 }
-.header-bottom{
+
+.header-bottom {
     padding-left: 40px;
 }
+
 .search-location {
     height: 40px;
     width: 20em;
     padding-left: 10px;
     font-size: 1em;
 }
-.search-bar{
+
+.search-bar {
     padding-left: 12px;
     height: 40px;
     width: 44em;
     font-size: 1em;
 }
+
 .fa-magnifying-glass {
     background-color: rgb(31, 24, 24);
     padding: 12px;
@@ -40,11 +47,13 @@ a {
     border-bottom-right-radius: 5px;
     border-top-right-radius: 5px;
 }
+
 .login {
     text-decoration: underline;
     font-weight: bolder;
 }
-.sell{
+
+.sell {
     background-color: #fff;
     padding: 10px;
     border-bottom: 5px solid #3a77ff;
@@ -56,39 +65,47 @@ a {
     width: 120px;
     font-weight: bolder;
 }
+
 .header-bottom-bar {
     padding-top: 10px;
     padding-left: 22px;
 }
-.list-cat{
+
+.list-cat {
     display: flex;
     list-style-type: none;
     padding-left: 24px;
 }
-.list-cat li{
+
+.list-cat li {
     padding-right: 20px;
 }
-.li{
+
+.li {
     font-size: 1em;
     font-weight: bold;
 }
-.hero-sec{
+
+.hero-sec {
     height: 200px;
     padding-right: 50px;
 }
-.hero{
+
+.hero {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 20px;
 }
-.outlet img{
+
+.outlet img {
     height: 100px;
     width: 100px;
     border-radius: 50%;
     cursor: pointer;
 }
-.outlet{
+
+.outlet {
     text-align: center;
     width: 110px;
     padding-top: 30px;
@@ -96,22 +113,26 @@ a {
     font-weight: bold;
     padding-left: 30px;
 }
+
 .category {
     padding-left: 52px;
     padding-top: 50px;
     width: 84vw;
 }
+
 .category-2 {
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
 }
+
 .product {
     height: 220px;
     width: 180px;
 
 }
-.product-material{
+
+.product-material {
     height: 300px;
     width: 290px;
     border: 1px solid rgb(138, 122, 153);
@@ -119,49 +140,59 @@ a {
     border-radius: 4px;
 
 }
-.main-sec{
+
+.main-sec {
     display: flex;
     justify-content: space-evenly;
     width: 90vw;
 }
-.product-sec{
+
+.product-sec {
     padding: 22px;
     padding-top: 22px;
     padding-left: 45px;
 }
-.pic img{
+
+.pic img {
     height: 170px;
     width: 100%;
 }
-.fa-regular{
+
+.fa-regular {
     float: inline-end;
     padding-right: 7px;
     font-weight: 300;
 }
-.des p{
+
+.des p {
     padding: 7px;
     font-weight: bold;
 }
-.des span{
+
+.des span {
     padding: 7px;
     font-size: 1em;
 }
+
 .footer {
     height: 200px;
     width: 100%;
     background-color: aqua;
 }
+
 .foot-material {
     display: flex;
     justify-content: space-evenly;
     padding-top: 40px;
 }
-ul li{
+
+ul li {
     list-style-type: none;
     padding: 4px;
     font-size: 0.8em;
 }
-.foot-un{
+
+.foot-un {
     background-color: rgb(43, 32, 32);
     color: white;
     height: 50px;
@@ -170,6 +201,60 @@ ul li{
     justify-content: flex-end;
     padding-top: 10px;
 }
-.bold{
+
+.bold {
     font-weight: bolder;
+}
+
+.olx-app-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f6f8f9;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+}
+
+.app-image img {
+    width: 300px;
+    max-width: 100%;
+    max-height: 100%;
+    height: 200px;
+}
+
+.app-content {
+    max-width: 300px;
+    padding: 0 20px;
+}
+
+.app-content h2 {
+    color: #002f34;
+    margin-bottom: 10px;
+}
+
+.app-content p {
+    color: #3e515b;
+}
+
+.app-links {
+    text-align: center;
+    padding: 0 20px;
+}
+
+.app-links h4 {
+    color: #002f34;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.store-buttons img {
+    height: 40px;
+    margin: 5px;
+}
+@media  screen and (max-width: 600px){
+    .main-sec {
+        display: grid;
+        flex-wrap: wrap;
+    }
+    
 }
